@@ -1,4 +1,18 @@
 table, th, td {
     border: 1px solid red;
   }
+  .container
+   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: white;
+  }
   
+  .container > div {
+    background-color :blue#f1f1f1;
+    color:blue;
+    width: 100px;
+    height: 100px;
+  }

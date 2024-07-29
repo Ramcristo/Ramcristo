@@ -1,0 +1,44 @@
+.box
+{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    background-color: aquamarine;
+    animation-name: box;
+    animation-timing-function: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition-property: all;
+    transition-delay: 1s;
+    transition-duration: 3s;
+}
+
+@keyframes box
+{
+    0%
+    {
+        transition:translate(0,0);
+        transform:rotate(10deg)
+    }
+    25%
+    {
+        transition:translatex(200px);
+        transform:rotate(45deg)
+    }
+    50%
+    {
+        transition:translatex(400px);
+        transform:rotate(90deg)
+    }
+    75%
+    {
+        transition:translate(200px) ;
+        transform:rotate(45deg)
+    }
+    100%
+    {
+        transform:translate(0,0);
+        transform:rotate(10deg)
+    }
+
+}
